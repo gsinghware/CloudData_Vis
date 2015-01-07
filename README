@@ -1,0 +1,9 @@
+Re-doing a visulization from my visulization course. The data came from the NASA's International Satellite Cloud Climatology Project (ISCCP).
+
+What Is The International Satellite Cloud Climatology Project (ISCCP)?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The International Satellite Cloud Climatology Project (ISCCP) was established in 1982 as part of the World Climate Research Program (WCRP) to collect weather satellite radiance measurements and to analyze them to infer the global distribution of clouds, their properties, and their diurnal, seasonal and interannual variations. The resulting datasets and analysis products are being used to study the role of clouds in climate, both their effects on radiative energy exchanges and their role in the global water cycle.
+
+ABOUT DATA
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The Cloud Data and Products that is being studied from the ISCCP is the GLOBAL Weather State (Cluster) Data. The data contains the distribution of cloud top pressure and cloud optical depth at each grid cell observed every 3-hours daily from 1983-2009 The distribution of cloud top pressure (PC) and optical depth (tau) fractions is referred to as a PC-tau histogram. A histogram displaying cloud top pressure and optical depth over some region reveals information regarding the type of clouds present (Rossow and Schiffer, 1999). Each PC-tau histogram contains 42 boxes, 6 optical thickness bins and 7 cloud top pressure bins (the bin sizes are not linear). One D1 PC-tau histogram contains the relative percentage of pixels that fall into each of these 42 boxes in the corresponding grid box (2.5°x2.5°).
