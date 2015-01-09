@@ -8,12 +8,10 @@
 	python join_hrs.py 83010100 83123121
 	83 01 01 00
 	83 12 31 21
-
 """
 import sys
 import os
 import numpy as np
-from tempfile import TemporaryFile
 
 i = 0
 def format_data(ary, yyyymmddhh):
@@ -105,8 +103,7 @@ def main():
 			# print start_month, start_day, start_year
 			# print len(complete_day), len(complete_day[0])
 			
-			np.savetxt(start_month+"-"+start_day+"-"+start_year+".csv", complete_day, delimiter=",", fmt='%1.3f')
-			break
+			np.savetxt(start_month+"-"+start_day+"-19"+start_year+".csv", complete_day, delimiter=",", fmt='%1.3f')
 			three_hour_counter = []
 
 		start_hr = int (start_hr)
